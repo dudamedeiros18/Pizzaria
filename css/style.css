@@ -1,0 +1,101 @@
+    body{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+/* Estlização do HEADER - cabeçalho */
+ .cabecalho{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+ .cabecalho > img{
+    height: 60px;
+
+ }
+ .menu{
+    display: flex;
+ }
+ .menu > li {
+    height: 60px;
+    display: flex;
+   align-items: center;
+
+ }
+ .menu > li > a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+    padding-right: 10px;
+ }
+
+
+ /* Estlizando o banner */
+ .banner{
+   background-image: url(../img/pizza.jpg);
+   background-size: cover;
+   background-position: top center;
+   height: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }
+ .banner > h1 {
+   color: white;
+   text-shadow: 1px 1px black;
+   margin-bottom: 30px;
+ }
+.botão-vazado{
+   color: white;
+   text-decoration: none;
+   border: 2px solid white;
+   padding: 10px;
+   border-radius: 3px;
+   background-color: rgba(0, 0, 0, 0.5);
+}
+.botão-vazado:hover{
+   background-color: white;
+}
+h2{
+   text-align: center;
+   color: green;
+}
+hr{
+   background: linear-gradient(to right, red, yellow);
+   height: 3px;
+}
+h3{
+   text-align: center;
+}
+.main{
+   max-width: 1300px;
+}
+.sabores{
+  flex-wrap: wrap;
+  display: flex;
+}
+img{
+   border-radius: 30px;
+}
+.sabor{
+   background-color: green;
+   margin-right: 10px;
+text-align: center;
+width: 280px;
+}
+.preco{
+   background-color: yellow;
+   margin: 10px;
+   padding: 10px;
+   border-radius: 10px;
+   text-align: center;
+}
+.pormoções{
+   display: flex;
+   overflow: scroll;
+}
+@media{
+    max-width: 600px;
+}
