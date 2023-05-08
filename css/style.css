@@ -96,6 +96,3 @@ width: 280px;
    display: flex;
    overflow: scroll;
 }
-@media{
-    max-width: 600px;
-}
